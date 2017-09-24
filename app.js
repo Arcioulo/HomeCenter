@@ -10,6 +10,9 @@ var users = require('./routes/users');
 var calendar = require('./routes/calendar');
 var traffic = require('./routes/traffic');
 var sports = require('./routes/sports');
+var weather = require('./routes/weather');
+var shopping_lists = require('./routes/shopping-lists');
+var local_news = require('./routes/local-news');
 
 var app = express();
 
@@ -30,6 +33,9 @@ app.use('/users', users);
 app.use('/calendar', calendar);
 app.use('/traffic', traffic);
 app.use('/sports', sports);
+app.use('/weather', weather);
+app.use('/shopping-lists', shopping_lists);
+app.use('/local-news', local_news);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
