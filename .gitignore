@@ -1,4 +1,10 @@
 g# Created by .ignore support plugin (hsz.mobi)
+
+# User-specific stuff:
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/dictionaries
+
 ### Node template
 # Logs
 logs
@@ -60,3 +66,8 @@ typings/
 .env
 
 
+.gitignore
+.idea/deployment.xml
+.idea/vcs.xml
+.idea/workspace.xml
+public/javascripts/
